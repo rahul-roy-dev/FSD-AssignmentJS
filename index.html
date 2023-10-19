@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Font,Icon,Image-->
+    <link rel="icon" type="image/png" href="assets/harisenincom_icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <title>harisenin.com - Feedback from Risers</title>
+</head>
+
+<body class="body">
+
+    <div class="body__container">
+        <main class="app">
+            <header class="header">
+                <div class="header-text">
+                <a href="." class="logo">
+                    <img src="assets/logo.svg" alt="logo" class="logo__img" height="40" width="300">
+                </a>
+                <h1 class="first-heading">Feedback from Risers</h1></div>
+                <form action="#" class="form">  
+                    <textarea class="form__textarea" id="textarea" spellcheck="false" maxlength="150" type="text"
+                        placeholder="Enter feedback"></textarea>
+                    <label for="textarea" class="form__label">Hi there Riser! Select the course and enter your feedback for harisenin.com<i
+                            class="fa-solid fa-pen form__icon"></i>
+                        </label>
+ 
+                          <p class="counter u-italic">150</p>
+                    <div class="form__bottom">
+                        <div>
+                            <label for="myCourse" class="courselabel" >Course:</label>
+                            <select id="myCourse">
+                              <option value="option1">#FullStackDev</option>
+                              <option value="option2">#HumanResources</option>
+                              <option value="option3">#DigitalMarketing</option>
+                              <option value="option4">#Big4Auditor&Financial Analyst</option>
+                            </select></div>
+                        <button class="submit-btn">
+                            <span class="submit-btn__text">POST</span>
+                        </button>
+                    </div>
+                </form>
+            </header>
+
+            <ol class="feedbacks">
+                 <div class="spinner"></div>
+            </ol>
+        </main>
+
+
+    
+    
+<footer class="footer">
+            <small class="copyright">
+                <p class="copyright__text">Made by Rahul Roy
+                    Project for Harisenin Bootcamp Assignment, for personal learning purposes.</p>
+            </small>
+        </footer>
+</body>
+
+</html>
